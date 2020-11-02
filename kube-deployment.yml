@@ -18,6 +18,7 @@ kind: Deployment
 metadata:
   name: db
   labels:
+    approved: dev
     app: words-db
 spec:
   template:
