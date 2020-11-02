@@ -25,6 +25,7 @@ spec:
     metadata:
       labels:
         app: words-db
+        approved: dev
     spec:
       containers:
       - name: db
